@@ -12,6 +12,7 @@ class DoublyLinkedList {
         this.tail = null;
         this.length = 0;
     }
+
     traverse() {
         let curr = this.head;
         while (curr) {
